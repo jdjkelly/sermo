@@ -2,6 +2,8 @@
 
 Sermo is an email agent.
 
+> c. 1200, sermoun, sarmun, "a discourse upon a text of scripture; that which is preached," from Anglo-French sermoun, Old French sermon, sermun "speech, words, discourse; church sermon, homily" (10c.) and directly from Latin sermonem (nominative sermo) "continued speech, conversation; common talk, rumor; learned talk, discourse; manner of speaking, literary style."
+
 It:
 - Reads emails
 - Manages an inbox
@@ -24,5 +26,3 @@ Technically:
   - Stores emails in a local sqlite database
   - In the future will have a local app
   - Works with IMAP Gmail accounts
-
-
