@@ -1,0 +1,20 @@
+{
+	"name": "@sermo/sermo",
+	"private": true,
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo run dev",
+		"lint": "turbo lint",
+		"format": "bun format",
+		"format-and-lint": "biome check .",
+		"format-and-lint:fix": "biome check . --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"turbo": "^2.4.4",
+		"typescript": "5.7.3",
+		"@types/bun": "latest"
+	},
+	"packageManager": "bun@1.2.0",
+	"workspaces": ["apps/*", "packages/*"]
+}

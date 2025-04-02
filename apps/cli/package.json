@@ -1,0 +1,20 @@
+{
+	"name": "@sermo/cli",
+	"version": "0.0.1",
+	"private": true,
+	"main": "index.ts",
+	"module": "index.ts",
+	"type": "module",
+	"dependencies": {
+		"googleapis": "^128.0.0"
+	},
+	"scripts": {
+		"dev": "bun run --watch index.ts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

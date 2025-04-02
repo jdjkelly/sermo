@@ -1,0 +1,46 @@
+# Project Structure and Technology
+This is a Turborepo monorepo project with the following structure:
+- Root project configuration
+- apps/web: Web application
+- packages/store: Shared store package
+
+# Technology Stack
+- Runtime/Package Manager: Bun (preferred over npm/yarn)
+- Language: TypeScript for all code
+- Formatting/Linting: Biome (not ESLint/Prettier)
+
+# Key Principles
+- Minimize external dependencies whenever possible
+- Prefer internal packages over external ones
+- Use TypeScript features fully (strict typing, interfaces, etc.)
+- Follow functional programming principles where appropriate
+
+# Code Style
+- Use named exports over default exports
+- Use arrow functions for functional components
+- Use explicit return types for functions
+- Use interfaces for object shapes
+- Use explicit 'type' or 'interface' declarations
+- Prefer const over let, avoid var
+- Use async/await over Promises
+- Use optional chaining and nullish coalescing
+
+# Package Management
+- Use Bun for package management
+- Keep dependencies minimal
+- Prefer devDependencies for build/dev tools
+- Use workspace references for internal packages
+
+# Component Structure
+- Keep components small and focused
+- Use composition over inheritance
+- Separate business logic from UI when possible
+
+# Testing Approaches
+- Write unit tests for utilities and helpers
+- Test components in isolation
+
+# File Organization
+- Group related files together
+- Follow consistent naming conventions
+- Use index.ts files for clean exports
